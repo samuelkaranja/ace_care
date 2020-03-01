@@ -1,0 +1,394 @@
+*{
+	margin: 0px;
+	padding: 0px; 
+}
+
+.bg-light{
+	background: white!important;
+	padding-bottom: 15px;
+	width: 100%;
+	position: relative;
+}
+
+.navbar-brand{
+	padding-top: 15px;
+	padding-left: 80px;
+	padding-right: 10px;
+}
+
+.navbar-brand img{
+	width: 200px;
+	height: 70px;
+}
+
+.nav-item{
+	padding-left: 50px;
+	font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #000000;
+	font-weight: 480;
+	font-family: sans-serif;
+	padding-top: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #f89828!important;
+}
+
+.dropdown-menu{
+	background-color: rgb(30,144,255);
+}
+
+.dropdown-item{
+	padding: 5px 6px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.dropdown-item:hover{
+	color: #f89828;
+}
+
+/*.........Carousel........*/
+
+.carousel-inner{
+	width: 100%;
+	height: 70vh;
+}
+
+.carousel-inner img{
+    height: inherit;
+    max-width: 100%;
+    line-height: 1;
+    margin:auto;
+    width: 100%; 
+}
+
+.carousel-item{
+	height: inherit;
+	width: 100%;
+}
+
+.intro{
+	position: absolute;
+	margin-top: 10%; 
+	z-index: 1000;
+}
+
+.intro h1{
+	font-weight: 600;
+	color: limegreen;
+	font-size: 3.4em;
+}
+
+.intro h2{
+	padding-top: 8px;
+	color: #fff;
+	font-size: 1.8em;
+}
+
+.bn{
+    position: absolute;
+    margin-top: 25%;
+    z-index: 10;
+}
+
+.bn .btn{
+	background: teal;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: none;
+}
+
+.bn .btn:hover{
+	background: limegreen;
+	border: none;
+}
+
+/*.....Carousel Overlay......*/
+
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.5);
+}
+
+
+/*..........Covers........*/
+
+.cover{
+	padding: 50px 0;
+	background-color: #f4f4f4;
+	width: 100%;
+	position: relative;
+}
+
+.cover .row{
+	margin: 0;
+}
+
+.cover h1{
+	padding: 10px 0 60px 0;
+}
+
+.frame{
+	border: 1px solid rgb(211,211,211);
+	border-radius: 5px;
+	margin: 0 0px 50px 20px;
+	padding: 0px;
+	background: #fff;
+	box-sizing: border-box;
+}
+
+.frame:hover{
+	box-shadow: 0px 0px 20px #888888;
+}
+
+.frame h5,p{
+	text-align: center;
+}
+
+.frame h5{
+	padding: 15px 0 6px 0;
+	color: #006400;
+	font-weight: bold;
+}
+
+.frame p{
+	padding: 0 0 5px 0;
+	color: #696969;
+}
+
+.frame img{
+	width: 100%;
+	height: 160px;
+}
+
+.frame button{
+	border: none;
+	background: seagreen;
+	padding: 8px 20px;
+	border-radius: 10px;
+	margin: 0 0 25px 0;
+}
+
+.frame button:hover{
+	background: darkgreen;
+}
+
+.frame button a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*..........Medical cover.......*/
+
+.present{
+	width: 100%;
+	height: 55vh;
+	background: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+	url("../img/medical.jpeg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.health{
+	position: absolute;
+	margin-top: 8%; 
+	z-index: 1000;
+}
+
+.health h1{
+	font-weight: 600;
+	color: #fff;
+	font-size: 3.4em;
+}
+
+.health h2{
+	font-weight: 300;
+	padding-top: 8px;
+	color: #fff;
+	font-size: 1.8em;
+}
+
+/*..........Leadership..........*/
+
+
+/*..........Partners...........*/
+
+.pt h1{
+	padding: 40px 0 30px 0;
+	/*padding: 50px 0 30px 0;*/
+	font-weight: bold;
+
+}
+
+.box{
+	text-align: center;
+	padding: 0px;
+	margin: 40px 10px 0px 20px;
+	/*margin: 50px 30px 30px 20px;*/
+}
+
+.box img{
+	max-width: 100%;
+	max-height: 100%;
+	text-align: center;
+}
+
+/*.........Comments..........*/
+
+.comment{
+	background-color: #f4f3ff;
+	/*padding-bottom: 20px;*/
+}
+
+.comment h1{
+	padding-top: 30px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+.content-box{
+	padding-bottom: 50px;
+}
+
+.contact-form{
+	padding: 15px;
+}
+
+.form-control{
+	border-radius: 0  !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+::placeholder{
+	font-size: 15px;
+}
+
+.contact-form button{
+	border: none !important;
+	background: rgb(34,139,34)!important;
+	box-shadow: none !important;
+	border-radius: 5px !important;
+}
+
+.contact-info .follow{
+	background-color: #fff;
+	padding: 8px;
+	margin: 15px;
+}
+
+.contact-info .fa{
+	margin: 10px;
+	font-size: 20px;
+	color: rgb(50,205,50);
+	font-weight: bold;
+	padding-right: 20px;
+}
+
+.contact-info span{
+	font-size: 14px;
+}
+
+.contact-info a{
+	color: #000;
+	text-decoration: none;
+}
+
+.copyright{
+	text-align: center;
+	font-size: 14px;
+}
+
+.fa-heart-o{
+	color: red;
+	font-size: 17px;
+}
+
+.service,.feature,.footer{
+	margin-top: 10%;
+}
+
+/*...........Footer............*/
+
+footer{
+	padding: 70px;
+	background-color: rgb(50,205,50);
+	bottom:0;
+	width: 100%;
+	position: relative;
+}
+
+.icon{
+	text-align: center;
+}
+
+.icon h2{
+	padding: 0 0 25px 0;
+	color: #fff;
+	font-weight: 500;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.icon ul li{
+	display: inline-block;
+	border: 2px solid white;
+	margin-right: 8px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+li i{
+	color: black;
+	padding: 10px;
+}
+
+.fa{
+	font-size: 18px;
+	color: #fff;
+}
+
+.fa-facebook{
+	color: blue;
+}
+
+.fa-youtube-play{
+	color: rgb(220,20,60);
+}
+
+.fa-instagram{
+	background-color: ; 
+}
+
+.fa-twitter{
+	color: rgba(29,161,242,1.00);
+}
+
+.textwidget p{
+	color: #fff;
+	font-size: 18px;
+}
+
+.policy p{
+	color: #fff;
+	font-weight: 400;
+	font-size: 1em;
+}
+
