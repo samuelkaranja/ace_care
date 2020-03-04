@@ -213,6 +213,7 @@ html {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .health{
@@ -323,7 +324,6 @@ html {
 
 .comment{
 	background-color: #f4f3ff;
-	/*padding-bottom: 20px;*/
 }
 
 .comment h1{
