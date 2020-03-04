@@ -217,7 +217,7 @@ html {
 }
 
 .health{
-	position: fixed;
+	position: absolute;
 	margin-top: 8%; 
 	z-index: 1000;
 }
@@ -303,11 +303,10 @@ html {
 /*..........Partners...........*/
 
 .pt h1{
-	padding: 40px 0 30px 0;
+	padding: 40px 0 10px 0;
 	margin-left: 50px;
 	/*padding: 50px 0 30px 0;*/
 	font-weight: 500;
-
 }
 
 .box{
