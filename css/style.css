@@ -125,7 +125,7 @@
 
 .cover{
 	padding: 50px 0;
-	background-color: #f4f4f4;
+	background-color: #e0dddb;
 	width: 100%;
 	position: relative;
 }
@@ -136,6 +136,7 @@
 
 .cover h1{
 	padding: 10px 0 60px 0;
+	color: darkgreen;
 }
 
 .frame{
@@ -174,8 +175,8 @@
 .frame button{
 	border: none;
 	background: seagreen;
-	padding: 8px 20px;
-	border-radius: 10px;
+	padding: 5px 20px;
+	border-radius: 50px;
 	margin: 0 0 25px 0;
 }
 
@@ -186,7 +187,7 @@
 .frame button a{
 	color: #fff;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 /*..........Medical cover.......*/
@@ -212,12 +213,13 @@
 .health h1{
 	font-weight: 600;
 	color: #fff;
+	margin: 0;
 	font-size: 3.4em;
 }
 
 .health h2{
 	font-weight: 300;
-	padding-top: 8px;
+	padding-top: 5px;
 	color: #fff;
 	font-size: 1.8em;
 }
@@ -231,6 +233,34 @@
       rgba(0,0,0,0.4), 
       rgba(0,0,0,0.4)),
 	url("../img/care.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*.........Business Cover..........*/
+
+.business{
+	width: 100%;
+	height: 55vh;
+	background: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+	url("../img/business.jpg");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*........Propety Cover.......*/
+
+.property{
+	width: 100%;
+	height: 55vh;
+	background: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+	url("../img/property.jpg");
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -273,6 +303,8 @@
 	padding-top: 30px;
 	padding-bottom: 70px;
 	text-align: center;
+	font-weight: bold;
+	color: darkgreen;
 }
 
 .content-box{
