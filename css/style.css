@@ -3,6 +3,10 @@
 	padding: 0px; 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-light{
 	background: white!important;
 	padding-bottom: 15px;
@@ -285,6 +289,7 @@
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	transition: 
 }
 
 
