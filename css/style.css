@@ -333,6 +333,27 @@ html {
 	background-attachment: fixed;
 }
 
+.pr .row{
+	margin: 0;
+	text-align: center;
+}
+
+.box1{
+	/*border: 1px solid black;*/
+	margin-right: 20px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	padding: 10px 0 20px 0;
+}
+
+.pr{
+	margin: 80px 0 50px 0;
+}
+
+.pr h3{
+	font-size: 15px;
+}
+
 .mc .row{
 	margin: 0;
 }
@@ -364,6 +385,8 @@ html {
 	background-size: contain;
 	background-attachment: fixed;
 }
+
+
 
 
 /*..........Leadership..........*/
