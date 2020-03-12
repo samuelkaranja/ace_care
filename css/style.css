@@ -505,6 +505,7 @@ html {
 	font-weight: 400;
 	line-height: 1.8;
 	color: #696969;
+	padding-left: 10px;
 }
 
 .contact input{
@@ -547,11 +548,45 @@ html {
 
 footer{
 	padding: 70px;
-	background-color: rgb(50,205,50);
+	background-color: green;
 	bottom:0;
 	width: 100%;
 	position: relative;
 }
+
+/*.footer h4{
+	color: #fff;
+	font-size: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.footer .hp{
+	border-right: 2px solid #b3b3b3;
+}
+
+.footer-links{
+	list-style-type: none;
+}
+
+.footer-links li{
+	margin-top: 1.5em;
+	text-align: center;
+}
+
+.footer-links li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 300;
+	font-size: 1em;
+}
+
+.footer .lower{
+	font-size: .8em;
+	padding: 20px 0;
+	border-top: 1px dotted #b3b3b3;
+	border-bottom: 1px dotted #b3b3b3;
+}*/
 
 .icon{
 	text-align: center;
