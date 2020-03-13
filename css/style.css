@@ -15,6 +15,7 @@ body{
 	background: white!important;
 	padding-bottom: 15px;
 	width: 100%;
+	border-bottom: 1px solid lightgrey;
 }
 
 .navbar-brand{
@@ -62,6 +63,7 @@ body{
 
 .slider{
 	margin-top: 6%;
+	border-bottom: 1px solid lightgrey;
 }
 
 .carousel-inner{
@@ -467,8 +469,8 @@ body{
 .pn h1{
 	padding: 30px 0 40px 0;
 	color: #383838;
-	font-size: 30px;
-	font-weight: 900;
+	font-size: 40px;
+	font-weight: 600;
 	letter-spacing: 2px;
 }
 
