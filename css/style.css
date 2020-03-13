@@ -461,19 +461,19 @@ body{
 	background: #fff;
 	padding-bottom: 40px;
 	margin-bottom: 1px solid black;
+	border-top: 1px solid lightgrey;
 }
 
 .pn h1{
 	padding: 30px 0 40px 0;
 	color: #383838;
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 900;
 	letter-spacing: 2px;
 }
 
 .pn .box{
-	margin-top: 15px;
-	margin-right: 35px;
+	margin: 15px 35px 0 0;
 }
 
 .pn img{
@@ -486,6 +486,7 @@ body{
 .contact{
 	background: #f4f4f4;
 	padding: 30px;
+	border-top: 1px solid lightgrey;
 }
 
 .contact .frm{
