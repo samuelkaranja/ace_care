@@ -465,10 +465,15 @@ body{
 
 .pn h1{
 	padding: 30px 0 40px 0;
+	color: #383838;
+	font-size: 35px;
+	font-weight: 900;
+	letter-spacing: 2px;
 }
 
 .pn .box{
 	margin-top: 15px;
+	margin-right: 35px;
 }
 
 .pn img{
@@ -490,7 +495,8 @@ body{
 
 .contact h1{
 	color: #383838;
-	font-size: 35px;font-weight: 900;
+	font-size: 35px;
+	font-weight: 900;
 	letter-spacing: 2px;
 	padding-bottom: 10px;
 }
@@ -537,7 +543,7 @@ body{
 	border: none;
 	color: white;
 	border-radius: 20px;
-	background-color: #fbae17;
+	background-color: mediumseagreen;
 }
 
 .contact button:hover{
