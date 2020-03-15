@@ -47,6 +47,7 @@ body{
 
 .dropdown-menu{
 	background-color: rgb(30,144,255);
+	border: none;
 }
 
 .dropdown-item{
@@ -137,19 +138,22 @@ body{
 /*..........Covers........*/
 
 .cover{
-	padding: 50px 0;
+	padding: 40px 0;
 	background-color: #f4f4f4;
 	width: 100%;
 	position: relative;
 }
 
-.cover .row{
-	margin: 0;
-}
-
 .cover h1{
 	padding: 10px 0 60px 0;
-	color: darkgreen;
+	color: #383838;
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.cover .row{
+	margin: 0;
 }
 
 .frame{
@@ -244,6 +248,10 @@ body{
 
 .md .row{
 	margin: 0;
+}
+
+.md .col-md-6{
+	padding-right: 5px;
 }
 
 .med{
